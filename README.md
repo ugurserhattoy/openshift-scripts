@@ -18,4 +18,7 @@ chmod +x find-operator-job-configmap.sh
 
 # Execute script with the operator name (or a unique part of it) as following
 ./find-operator-related-job-configmap.sh <operator_name>
+
+# After execution script will create 2 files for the list of jobs and configmaps
+# Files are include-job.list configmap-job.list
 ```
