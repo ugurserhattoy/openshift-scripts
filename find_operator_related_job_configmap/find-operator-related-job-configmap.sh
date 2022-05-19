@@ -17,7 +17,7 @@ function find_files_includes
         fi
     done
     rm $1.list
-    echo "$1s are save as include-$1.list file"
+    echo "$1s are saved to include-$1.list file"
 }
 # run functions
 find_files_includes job $1
