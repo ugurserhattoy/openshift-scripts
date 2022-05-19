@@ -7,6 +7,10 @@ The script is useful while troubleshooting openshift operators & their installat
 
 When the time comes, the script will save you from searching more than one hundred jobs and configmaps.
 
+### Prerequisites
+- ready to use oc-cli
+- shell to run script
+
 ### How to Use
 
 ```bash
