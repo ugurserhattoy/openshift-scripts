@@ -1,8 +1,4 @@
-# openshift-scripts
-OpenShift Scripts
-
-
-## find-operator-related-job-configmap.sh
+# find-operator-related-job-configmap.sh
 The script is useful while troubleshooting openshift operators & their installation. 
 
 When the time comes, the script will save you from searching more than one hundred jobs and configmaps.
