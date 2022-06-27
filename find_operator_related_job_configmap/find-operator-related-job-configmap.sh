@@ -10,14 +10,14 @@ function find_files_includes
         oc describe $VAR -n openshift-marketplace | grep -i $2
         if  [ $? -eq 0 ]
         then
-            echo "$VAR'da Bulundu"
+            echo "FOUND in $VAR"
             echo "$VAR" >> include-$1.list
         else
-            echo "$VAR'da YOK"
+            echo "NOT in $VAR"
         fi
     done
     rm $1.list
-    echo "$1s are saved to include-$1.list file"
+    echo "$1s are saved to the include-$1.list file"
 }
 # run functions
 find_files_includes job $1
